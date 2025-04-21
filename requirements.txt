@@ -1,0 +1,9 @@
+numpy
+opencv-python==4.6.0.*
+open3d==0.12.0
+matplotlib
+yolov4==2.0.2
+tensorflow
+rospy
+sensor_msgs
+cv_bridge
