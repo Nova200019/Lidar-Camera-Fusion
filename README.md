@@ -1,34 +1,11 @@
-# Dimos-LicaFuse - Landing Page
+# LicaFuse 
 
 LiCa-Fuse is a student research project which aims at enabling the fusion of Camera and LiDAR data. 
 The resulting model of this fusion detects objects as well as their position in a certain environment. 
 This data can then be used for various applications, such as autonomous driving or surveillance systems.
 
-## Repository structure
 
-This repository is structured as follows: 
 
-This main branch describes the implementation of the fusion of camera and lidar data. The corresponding guide can be found in the [fusion-guide](./fusion-guide.md).
-
-Other parts of the project which contain some form of code can be found in the [tools directory](./tools). Each sub-directory consists of the necessary code and assets as well as a specific README.md file.
-
-The tools directory includes 
-- [Retrieval of pointcloud data and converting them from .lvx to .pcd files](./tools/Retrival_of%20_point_cloud_data?ref_type=heads)
-- [Object detection using pointcloud clustering](./tools/object_detection_node?ref_type=heads)
-- [Calibration of camera and LiDAR using Point To Plane method](./tools/point2planeCalibration?ref_type=heads)
-- [Streaming of pointcloud data as an image to a webserver](./tools/streaming?ref_type=heads)
-
-as well as some files not allocated to a specific sub-directory. Further information on the purpose of these files can be found under [Useful Tools](./fusion-guide.md#useful-tools) in the fusion guide.
-
-Additionally, these sub-projects can also be found in their respective **feature branches**. This sturcture is aiming at providing a good base for further development on this project and to make the separate sub-projects easier editible for developers.
-
-Parts of the project that do **not** contain any code, for example research results, can be found [in the Wiki](https://git-ce.th-rosenheim.de/pse-24/Dimos-LiCaFuse/-/wikis/home) under the "Product" index.
-
-### Responsibilities
-
-To gain an insight into which team member was responsible for which tasks, you can check [Responsibilities](https://git-ce.th-rosenheim.de/pse-24/Dimos-LiCaFuse/-/wikis/Project-Organization/Responsibilities?redirected_from=Project-Organization/Roles) in the Wiki.
-
-## Contents of delivery
 
 ### Software
 
